@@ -21,7 +21,6 @@ python yara/run_yara.py yara/YARArule.yar <target_file>
 
 AES-CTR 방식으로 암호화된 파일을 복구하기 위한 단계별 절차입니다.
 
-```bash
 python decrypt/run_decrypt.py <encrypted_file>
 python decrypt/simple_ctr_probe_improved.py <encrypted_file> decrypt/candidates.txt -o out
 python decrypt/Decrypt_flag.py
