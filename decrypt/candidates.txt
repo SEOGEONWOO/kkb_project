@@ -1,0 +1,3 @@
+AES CTR keylen=16 iv=off:12 note=ctr-128bit
+AES CTR keylen=24 iv=off:12 note=ctr-192bit
+AES CTR keylen=32 iv=off:12 note=ctr-256bit
